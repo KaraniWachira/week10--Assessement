@@ -32,7 +32,7 @@ function findLeapYear(beginYear, endYear) {
            return new_array;
         
     } catch (error) {
-        clg(error);
+        console.log(error);
     }
     
 }
